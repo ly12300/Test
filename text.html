@@ -1,0 +1,68 @@
+<html>
+
+<body>
+  <section>
+    <div class="content">
+      <h2>CSS</h2>
+      <p>
+      内容可自定义
+      </p>
+      <a href="#">阅读更多</a>
+    </div>
+  </section>
+  <section>
+    <div class="content">
+      <h2>开源</h2>
+      <p>
+       内容可自定义
+      </p>
+      <a href="#">阅读更多</a>
+    </div>
+  </section>
+  <section>
+    <div class="content">
+      <h2>Tailwind</h2>
+      <p>
+       内容可自定义
+      </p>
+      <a href="#">阅读更多</a>
+    </div>
+  </section>
+
+  <style>
+    section:nth-child(1) .content h2 {
+  background-image: url(https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7b26c88cbf7f48c891aab45fe55ae41a~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1920&h=1080&s=361210&e=jpg&b=4c6888);
+  background-size: cover;
+}
+section:nth-child(2) .content h2 {
+  background-image: url(https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d687b30f214047c6b3d31d52804ab9c9~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1920&h=1080&s=659214&e=jpg&b=a7b9c8);
+  background-size: cover;
+}
+section:nth-child(3) .content h2 {
+  background-image: url(https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cde26199279540bcabde70e177a10656~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1920&h=1080&s=764894&e=jpg&b=a2adc2);
+  background-size: cover;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+section .content {
+  text-align: center;
+}
+section .content h2 {
+  font-size: 12vw;
+  font-weight: 900;
+  line-height: 1.5em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-attachment: fixed;
+}
+  </style>
+</body>
+</html>
